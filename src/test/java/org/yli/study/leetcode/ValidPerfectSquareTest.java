@@ -32,10 +32,7 @@ public class ValidPerfectSquareTest {
         assertFalse(util.isPerfectSquare(24));
         assertFalse(util.isPerfectSquare(26));
 
-        System.out.println(Math.sqrt(808201));
         assertTrue(util.isPerfectSquare(808201));
-
-
     }
 
 }
